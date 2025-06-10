@@ -44,3 +44,98 @@ Your custom css here
   opacity: 1;
 }
 
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .project-card {
+      display: block; /* agar seluruh <a> bisa jadi block seperti div */
+      text-decoration: none;
+      color: inherit;
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 1rem;
+      width: 250px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .project-title {
+      margin: 0;
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
+
+    .project-type {
+      font-size: 0.9rem;
+      color: #666;
+      margin: 0.3rem 0;
+    }
+
+    .project-date {
+      font-size: 0.8rem;
+      color: #aaa;
+    }
+
+    .project-status {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.3rem 0.6rem;
+      font-size: 0.75rem;
+      border-radius: 4px;
+      font-weight: 500;
+      color: white;
+    }
+
+    .completed {
+      background-color: #28a745;
+    }
+
+    .in-development {
+      background-color: #ff9800;
+    }
+
+ .skill-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .skill-card {
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 1rem;
+      width: 200px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .skill-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .skill-name {
+      font-size: 1rem;
+      font-weight: bold;
+      margin-bottom: 0.4rem;
+    }
+
+    .skill-level {
+      font-size: 0.85rem;
+      color: #666;
+    }
+
+    .application { border-left: 5px solid #99d6ff; }
+    .language { border-left: 5px solid #a4ffca; }
+    .rl   { border-left: 5px solid #d48aff; }
+    .computer   { border-left: 5px solid #555555; }
